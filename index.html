@@ -9,20 +9,28 @@
 </head>
 <body>
     <header>
-        <h1>Amigo secreto</h1>
+        <div class="tit">
+            <h1>Amigo secreto</h1>
+        </div>
     </header>
     <main>
-        <div>
+        <div class="tit2">
             <h2>Ingresa el nombre de tus amigos</h2>
         </div>
-        <div>
-            <button onclick="añadir_amigos()" class="añadir">Añadir</button>
+        <section class="entrada">
+            <div class="input_entrada">
+                <input type="text" placeholder="Ingresa un nombre">
+            </div>
+            <div class="boton_entrada">
+                <button onclick="añadir_amigos()" class="añadir">Añadir</button>
+            </div>
+        </section>
+        <div class="lista">
             <ul>
 
             </ul>
         </div>
-        <div>
-            <input type="text">
+        <div class="boton_sortear">
             <button onclick="sortear_amigos()" class="sortear">Sortear</button>
         </div>
     </main>
